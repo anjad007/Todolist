@@ -1,0 +1,88 @@
+body{
+  font-family: arial;
+  background-color: rgb(102, 95, 95);
+}
+
+.heading{
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(223, 221, 221);
+}
+
+.todo-div{
+  width: 470px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: 3px solid rgb(158, 147, 147);
+}
+
+.input-date,.input-tudo,.add-btn,.delete-btn{
+  cursor: pointer;
+}
+
+.input-todo{
+  padding: 10px 5px;
+  width: 200px;
+  border: none;
+  border-radius: 3px;
+  padding-left: 10px;
+}
+
+.input-date{
+  padding: 9px 5px;
+  width: 100px;
+  border: none;
+  border-radius: 3px;
+}
+
+.add-btn{
+  padding: 10px 5px;
+  width: 100px;
+  border: none;
+  border-radius: 3px;
+  background-color: rgb(45, 198, 45);
+  font-weight: bold;
+  color: white;
+}
+
+.todolist-div{
+  width: 460px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin:10px 0px;
+  background-color:rgb(81, 72, 72);
+  padding:2px 10px;
+  border-radius: 5px;
+
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+}
+.name{
+  flex: 200px;
+}
+.duedate{
+  flex: 100px;
+}
+
+.delete-btn{
+  width: 100px;
+  padding: 10px 5px;
+  border: none;
+  border-radius: 3px;
+  background-color:rgb(186, 27, 27);
+  font-weight: bold;
+  color: white;
+
+  flex: 70px;
+}
+
+
+.todolist-container-div{
+  display: flex;
+  flex-direction: column;
+}
